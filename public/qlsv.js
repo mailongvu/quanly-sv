@@ -1,4 +1,4 @@
-let http = "https://vucodiing-student-manager.herokuapp.com/users";
+let http = "https://vucodiing-students.herokuapp.com/users";
 let studentID = 0;
 $(function () {
 

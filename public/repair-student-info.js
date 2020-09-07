@@ -39,7 +39,7 @@ $("#repair-student").validate({
 
 let getLinkInfoStudent = new URLSearchParams(window.location.search);
 let getId = getLinkInfoStudent.get("id");
-let http = "https://vucodiing-student-manager.herokuapp.com/users";
+let http = "https://vucodiing-students.herokuapp.com/users";
 $(function(){
     $.ajax({
         url: http + "/" + getId,

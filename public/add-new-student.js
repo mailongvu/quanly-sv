@@ -40,7 +40,7 @@ $("#add-student").validate({
 function addStudent(){
     if($('#add-student').valid()){
         $.ajax({
-            url: "https://vucodiing-student-manager.herokuapp.com/users",
+            url: "https://vucodiing-students.herokuapp.com/users",
             method: "POST",
             data: {
                 "name": $("#name").val(),
