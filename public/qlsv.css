@@ -5,9 +5,9 @@ h1 {
 a {
     text-decoration: none;
 }
-/* .btn-success {
-    font-size: 20px;
-} */
+p {
+    margin-bottom: 0;
+}
 .btn :hover {
     text-decoration: none;
     color: white;
@@ -74,4 +74,33 @@ label span {
 
 .btn-page {
     text-align: center;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.btn-filter {
+    display: flex;
+   
+    align-items: center;
+}
+
+#name-students, #year-students {
+    margin-right:10px;
+}
+
+.find {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin:15px;
+}
+
+#find-smt {
+    width: 70%;
+    margin-right: 10px;
 }
