@@ -210,72 +210,81 @@ function filterName() {
       </tr>`;
       }
       $("tbody").html(htmlString);
-    });
-
-    $.ajax({
-      method: "GET",
-      url: "https://vucodiing-students.herokuapp.com/users/?" + birthdayFilter,
-      context: document.body,
-    }).done(function (users) {
-      let htmlString = "";
-
-      for (let user of users) {
-        htmlString += `<tr id="${user.id}">
-          <td>${user.name}</td>
-          <td>${user.birthday}</td>
-          <td>${user.email}</td>
-          <td>${user.phone}</td>
-          <td>
-              <a href="repair-student.html?id=${user.id}" class="text-repair">
-                  <i class="fa fa-edit">
-                  </i>
-                  Chỉnh sửa
-              </a>
-              |
-              <a href="javascript:void(0)" onclick="confirmDel(${user.id})" class="text-delete" data-toggle="modal" data-target="#exampleModal">
+    })
+    .fail(function(){
+      $.ajax({
+        method: "GET",
+        url: "https://vucodiing-students.herokuapp.com/users/?" + birthdayFilter,
+        context: document.body,
+      }).done(function (users) {
+        let htmlString = "";
   
-                  <i class="fa fa-trash-alt">
-                  </i>
-                  Xoá
-              </a>
-          </td>
-      </tr>`;
-      }
-      $("tbody").html(htmlString);
-    });
+        for (let user of users) {
+          htmlString += `<tr id="${user.id}">
+            <td>${user.name}</td>
+            <td>${user.birthday}</td>
+            <td>${user.email}</td>
+            <td>${user.phone}</td>
+            <td>
+                <a href="repair-student.html?id=${user.id}" class="text-repair">
+                    <i class="fa fa-edit">
+                    </i>
+                    Chỉnh sửa
+                </a>
+                |
+                <a href="javascript:void(0)" onclick="confirmDel(${user.id})" class="text-delete" data-toggle="modal" data-target="#exampleModal">
+    
+                    <i class="fa fa-trash-alt">
+                    </i>
+                    Xoá
+                </a>
+            </td>
+        </tr>`;
+        }
+        $("tbody").html(htmlString);
+      })
+      .fail(function(){
+        $.ajax({
+          method: "GET",
+          url: "https://vucodiing-students.herokuapp.com/users/?" + phoneFilter,
+          context: document.body,
+        }).done(function (users) {
+          let htmlString = "";
+    
+          for (let user of users) {
+            htmlString += `<tr id="${user.id}">
+              <td>${user.name}</td>
+              <td>${user.birthday}</td>
+              <td>${user.email}</td>
+              <td>${user.phone}</td>
+              <td>
+                  <a href="repair-student.html?id=${user.id}" class="text-repair">
+                      <i class="fa fa-edit">
+                      </i>
+                      Chỉnh sửa
+                  </a>
+                  |
+                  <a href="javascript:void(0)" onclick="confirmDel(${user.id})" class="text-delete" data-toggle="modal" data-target="#exampleModal">
+      
+                      <i class="fa fa-trash-alt">
+                      </i>
+                      Xoá
+                  </a>
+              </td>
+          </tr>`;
+          }
+          $("tbody").html(htmlString);
+        });
+      })
+    })
 
-    $.ajax({
-      method: "GET",
-      url: "https://vucodiing-students.herokuapp.com/users/?" + phoneFilter,
-      context: document.body,
-    }).done(function (users) {
-      let htmlString = "";
 
-      for (let user of users) {
-        htmlString += `<tr id="${user.id}">
-          <td>${user.name}</td>
-          <td>${user.birthday}</td>
-          <td>${user.email}</td>
-          <td>${user.phone}</td>
-          <td>
-              <a href="repair-student.html?id=${user.id}" class="text-repair">
-                  <i class="fa fa-edit">
-                  </i>
-                  Chỉnh sửa
-              </a>
-              |
-              <a href="javascript:void(0)" onclick="confirmDel(${user.id})" class="text-delete" data-toggle="modal" data-target="#exampleModal">
-  
-                  <i class="fa fa-trash-alt">
-                  </i>
-                  Xoá
-              </a>
-          </td>
-      </tr>`;
-      }
-      $("tbody").html(htmlString);
-    });
+    
+
+    
   }
+    
+  
 }
 
 function confirmDel(id) {
