@@ -3,6 +3,7 @@ let studentID = 0;
 $(function () {
 
   $.ajax({
+    type: "GET",
     url: http,
     context: document.body
   }).done(function (users) {

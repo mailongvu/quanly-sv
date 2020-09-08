@@ -9,6 +9,72 @@
   },
   "users": [
     {
+      "id": 1,
+      "name": "Hanbana",
+      "email": "lhubbard6@networkadvertising.org",
+      "password": "lhubbard6",
+      "phone": "967-486-1276",
+      "birthday": "11/24/2006",
+      "bio": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "gender": "Male",
+      "avatar": "https://robohash.org/doloresnatusaut.jpg?size=150x150&set=set1"
+    },
+    {
+      "id": 2,
+      "name": "Naruto",
+      "email": "lhubbard6@networkadvertising.org",
+      "password": "lhubbard6",
+      "phone": "967-486-1276",
+      "birthday": "11/24/2006",
+      "bio": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "gender": "Male",
+      "avatar": "https://robohash.org/doloresnatusaut.jpg?size=150x150&set=set1"
+    },
+    {
+      "id": 3,
+      "name": "UBubtun",
+      "email": "lhubbard6@networkadvertising.org",
+      "password": "lhubbard6",
+      "phone": "967-486-1276",
+      "birthday": "11/24/2006",
+      "bio": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "gender": "Male",
+      "avatar": "https://robohash.org/doloresnatusaut.jpg?size=150x150&set=set1"
+    },
+    {
+      "id": 4,
+      "name": "RObor Lanke",
+      "email": "lhubbard6@networkadvertising.org",
+      "password": "lhubbard6",
+      "phone": "967-486-1276",
+      "birthday": "11/24/2006",
+      "bio": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "gender": "Male",
+      "avatar": "https://robohash.org/doloresnatusaut.jpg?size=150x150&set=set1"
+    },
+    {
+      "id": 5,
+      "name": "Chelsa Robi",
+      "email": "lhubbard6@networkadvertising.org",
+      "password": "lhubbard6",
+      "phone": "967-486-1276",
+      "birthday": "11/24/2006",
+      "bio": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "gender": "Male",
+      "avatar": "https://robohash.org/doloresnatusaut.jpg?size=150x150&set=set1"
+    },
+    {
+      "id": 6,
+      "name": "Anba Rond",
+      "email": "lhubbard6@networkadvertising.org",
+      "password": "lhubbard6",
+      "phone": "967-486-1276",
+      "birthday": "11/24/2006",
+      "bio": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "gender": "Male",
+      "avatar": "https://robohash.org/doloresnatusaut.jpg?size=150x150&set=set1"
+    },
+    {
       "id": 7,
       "name": "Lindy Hubbard",
       "email": "lhubbard6@networkadvertising.org",
@@ -60,101 +126,101 @@
       "id": 11
     },
     {
-      "name": "sdfsd",
+      "name": "Benzama",
       "year": "324324",
       "email": "vucodiing@gmail.com",
       "phone": "345435",
       "id": 12
     },
     {
-      "name": "sdfsd",
+      "name": "Kakasi",
       "year": "555555",
       "email": "vucodiing@gmail.com",
       "phone": "345435",
       "id": 13
     },
     {
-      "name": "",
-      "year": "",
-      "email": "",
-      "phone": "",
+      "name": "Lee",
+      "year": "25/10/1990",
+      "email": "lee@gmail.com",
+      "phone": "0143569874",
       "id": 14
     },
     {
-      "name": "",
-      "year": "",
-      "email": "",
-      "phone": "",
+      "name": "Itachi",
+      "year": "25/10/1990",
+      "email": "lee@gmail.com",
+      "phone": "0143569874",
       "id": 15
     },
     {
-      "name": "",
-      "year": "",
-      "email": "",
-      "phone": "",
+      "name": "Sasuke",
+      "year": "25/10/1990",
+      "email": "lee@gmail.com",
+      "phone": "0143569874",
       "id": 16
     },
     {
-      "name": "",
-      "year": "",
-      "email": "",
-      "phone": "",
+      "name": "Sakura",
+      "year": "25/10/1990",
+      "email": "lee@gmail.com",
+      "phone": "0143569874",
       "id": 17
     },
     {
-      "name": "",
-      "year": "",
-      "email": "",
-      "phone": "",
+      "name": "Kai",
+      "year": "25/10/1990",
+      "email": "lee@gmail.com",
+      "phone": "0143569874",
       "id": 18
     },
     {
-      "name": "",
-      "year": "",
-      "email": "",
-      "phone": "",
+      "name": "Shikamaru",
+      "year": "25/10/1990",
+      "email": "lee@gmail.com",
+      "phone": "0143569874",
       "id": 19
     },
     {
-      "name": "",
-      "year": "",
-      "email": "",
-      "phone": "",
+      "name": "Ino",
+      "year": "25/10/1990",
+      "email": "lee@gmail.com",
+      "phone": "0143569874",
       "id": 20
     },
     {
-      "name": "",
-      "year": "",
-      "email": "",
-      "phone": "",
+      "name": "Akamaru",
+      "year": "25/10/1990",
+      "email": "lee@gmail.com",
+      "phone": "0143569874",
       "id": 21
     },
     {
-      "name": "",
-      "year": "",
-      "email": "",
-      "phone": "",
+      "name": "KIba",
+      "year": "25/10/1990",
+      "email": "lee@gmail.com",
+      "phone": "0143569874",
       "id": 22
     },
     {
-      "name": "",
-      "year": "",
-      "email": "",
-      "phone": "",
+      "name": "Bruto",
+      "year": "25/10/1990",
+      "email": "lee@gmail.com",
+      "phone": "0143569874",
       "id": 23
     },
     {
-      "name": "",
-      "year": "",
-      "email": "",
-      "phone": "",
+      "name": "Shino",
+      "year": "25/10/1990",
+      "email": "lee@gmail.com",
+      "phone": "0143569874",
       "id": 24
     },
     {
-      "name": "",
-      "year": "",
-      "email": "",
-      "phone": "",
+      "name": "Kurenai",
+      "year": "25/10/1990",
+      "email": "lee@gmail.com",
+      "phone": "0143569874",
       "id": 25
     },
     {
@@ -165,42 +231,42 @@
       "id": 26
     },
     {
-      "name": "",
-      "year": "",
-      "email": "",
-      "phone": "",
+      "name": "Tenten",
+      "year": "25/10/1990",
+      "email": "lee@gmail.com",
+      "phone": "0143569874",
       "id": 27
     },
     {
-      "name": "",
-      "year": "ss",
-      "email": "",
-      "phone": "",
+      "name": "Lee",
+      "year": "25/10/1990",
+      "email": "lee@gmail.com",
+      "phone": "0143569874",
       "id": 28
     },
     {
-      "name": "",
-      "year": "",
-      "email": "",
-      "phone": "",
+      "name": "Gai",
+      "year": "25/10/1990",
+      "email": "lee@gmail.com",
+      "phone": "0143569874",
       "id": 29
     },
     {
-      "name": "",
-      "year": "",
-      "email": "",
-      "phone": "",
+      "name": "Sarada Uchiha",
+      "year": "25/10/1990",
+      "email": "lee@gmail.com",
+      "phone": "0143569874",
       "id": 30
     },
     {
-      "name": "nguyen thuy dung",
+      "name": "Mitsuki",
       "birthday": "11/18/1995",
       "email": "vucodiing@gmail.com",
       "phone": "0968654521",
       "id": 31
     },
     {
-      "name": "mai tung lam",
+      "name": "Sarutobi",
       "year": "2002",
       "email": "a@gmail.com",
       "phone": "1111111111",
