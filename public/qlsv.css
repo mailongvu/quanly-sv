@@ -71,3 +71,7 @@ label span {
 .btn-back {
     color: white;
 }
+
+.btn-page {
+    text-align: center;
+}
